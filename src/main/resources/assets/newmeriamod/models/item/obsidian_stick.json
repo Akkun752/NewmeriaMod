@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "newmeriamod:item/diamond_ingot"
+    "layer0": "newmeriamod:item/obsidian_stick"
   }
 }

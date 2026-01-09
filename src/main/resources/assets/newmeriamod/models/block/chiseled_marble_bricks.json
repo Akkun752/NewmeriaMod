@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "newmeriamod:block/chiseled_marble_bricks"
+  }
+}

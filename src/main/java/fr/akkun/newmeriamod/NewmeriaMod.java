@@ -47,11 +47,17 @@ public class NewmeriaMod {
 
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
         if(event.getTabKey() == CreativeModeTabs.INGREDIENTS){
-            event.accept(ModItems.DIAMOND_INGOT);
+            event.accept(ModItems.OBSIDIAN_STICK);
         }
 
         if(event.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS){
             event.accept(ModBlocks.MARBLE);
+            event.accept(ModBlocks.MARBLE_BRICKS);
+            event.accept(ModBlocks.COBBLED_MARBLE);
+            event.accept(ModBlocks.CHISELED_MARBLE_BRICKS);
+            event.accept(ModBlocks.MOSSY_COBBLED_MARBLE);
+            event.accept(ModBlocks.MOSSY_MARBLE_BRICKS);
+            event.accept(ModBlocks.CRACKED_MARBLE_BRICKS);
         }
     }
 

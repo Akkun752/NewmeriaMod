@@ -9,7 +9,7 @@ import net.neoforged.neoforge.registries.DeferredRegister;
 public class ModItems {
     public static final DeferredRegister.Items ITEMS = DeferredRegister.createItems(NewmeriaMod.MOD_ID);
 
-    public static final DeferredItem<Item> DIAMOND_INGOT = ITEMS.register("diamond_ingot",
+    public static final DeferredItem<Item> OBSIDIAN_STICK = ITEMS.register("obsidian_stick",
             () -> new Item(new Item.Properties()));
 
 

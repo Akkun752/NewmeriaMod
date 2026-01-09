@@ -22,6 +22,36 @@ public class ModBlocks {
                     .strength(2.0f, 6.5f).requiresCorrectToolForDrops()
                     .sound(SoundType.STONE)));
 
+    public static final DeferredBlock<Block> MARBLE_BRICKS = registerBlock("marble_bricks",
+            () -> new Block(BlockBehaviour.Properties.of()
+                    .strength(2.0f, 6.5f).requiresCorrectToolForDrops()
+                    .sound(SoundType.STONE)));
+
+    public static final DeferredBlock<Block> COBBLED_MARBLE = registerBlock("cobbled_marble",
+            () -> new Block(BlockBehaviour.Properties.of()
+                    .strength(2.0f, 6.5f).requiresCorrectToolForDrops()
+                    .sound(SoundType.STONE)));
+
+    public static final DeferredBlock<Block> CHISELED_MARBLE_BRICKS = registerBlock("chiseled_marble_bricks",
+            () -> new Block(BlockBehaviour.Properties.of()
+                    .strength(2.0f, 6.5f).requiresCorrectToolForDrops()
+                    .sound(SoundType.STONE)));
+
+    public static final DeferredBlock<Block> MOSSY_COBBLED_MARBLE = registerBlock("mossy_cobbled_marble",
+            () -> new Block(BlockBehaviour.Properties.of()
+                    .strength(2.0f, 6.5f).requiresCorrectToolForDrops()
+                    .sound(SoundType.STONE)));
+
+    public static final DeferredBlock<Block> MOSSY_MARBLE_BRICKS = registerBlock("mossy_marble_bricks",
+            () -> new Block(BlockBehaviour.Properties.of()
+                    .strength(2.0f, 6.5f).requiresCorrectToolForDrops()
+                    .sound(SoundType.STONE)));
+
+    public static final DeferredBlock<Block> CRACKED_MARBLE_BRICKS = registerBlock("cracked_marble_bricks",
+            () -> new Block(BlockBehaviour.Properties.of()
+                    .strength(2.0f, 6.5f).requiresCorrectToolForDrops()
+                    .sound(SoundType.STONE)));
+
     private static <T extends Block> DeferredBlock<T> registerBlock(String name, Supplier<T> block) {
         DeferredBlock<T> toReturn = BLOCKS.register(name, block);
         registerBlockItem(name, toReturn);

@@ -1,5 +1,11 @@
 {
-  "item.newmeriamod.diamond_ingot": "Diamond Ingot",
+  "item.newmeriamod.obsidian_stick": "Obsidian Stick",
 
-  "block.newmeriamod.marble": "Marble"
+  "block.newmeriamod.marble": "Marble",
+  "block.newmeriamod.marble_bricks": "Marble Bricks",
+  "block.newmeriamod.cobbled_marble": "Cobbled Marble",
+  "block.newmeriamod.chiseled_marble_bricks": "Chiseled Marble Bricks",
+  "block.newmeriamod.mossy_cobbled_marble": "Mossy Cobbled Marble",
+  "block.newmeriamod.mossy_marble_bricks": "Mossy Marble Bricks",
+  "block.newmeriamod.cracked_marble_bricks": "Cracked Marble Bricks"
 }
