@@ -1,4 +1,4 @@
-package com.example.examplemod;
+package fr.akkun.newmeriamod;
 
 import java.util.List;
 import java.util.Set;
