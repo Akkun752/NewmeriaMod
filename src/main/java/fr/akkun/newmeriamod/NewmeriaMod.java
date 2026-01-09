@@ -1,5 +1,6 @@
 package fr.akkun.newmeriamod;
 
+import fr.akkun.newmeriamod.block.ModBlocks;
 import fr.akkun.newmeriamod.item.ModItems;
 import org.slf4j.Logger;
 
@@ -33,6 +34,7 @@ public class NewmeriaMod {
         NeoForge.EVENT_BUS.register(this);
 
         ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
 
         modEventBus.addListener(this::addCreative);
 
@@ -46,6 +48,10 @@ public class NewmeriaMod {
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
         if(event.getTabKey() == CreativeModeTabs.INGREDIENTS){
             event.accept(ModItems.DIAMOND_INGOT);
+        }
+
+        if(event.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS){
+            event.accept(ModBlocks.MARBLE);
         }
     }
 
