@@ -59,6 +59,10 @@ public class NewmeriaMod {
             event.accept(ModBlocks.MOSSY_MARBLE_BRICKS);
             event.accept(ModBlocks.CRACKED_MARBLE_BRICKS);
         }
+
+        if(event.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES){
+            event.accept(ModItems.SPATULA);
+        }
     }
 
     @SubscribeEvent

@@ -11,6 +11,8 @@ public class ModItems {
 
     public static final DeferredItem<Item> OBSIDIAN_STICK = ITEMS.register("obsidian_stick",
             () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> SPATULA = ITEMS.register("spatula",
+            () -> new Item(new Item.Properties()));
 
 
 
