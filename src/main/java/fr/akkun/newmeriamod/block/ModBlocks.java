@@ -52,6 +52,16 @@ public class ModBlocks {
                     .strength(2.0f, 6.5f).requiresCorrectToolForDrops()
                     .sound(SoundType.STONE)));
 
+    public static final DeferredBlock<Block> NEWMERITE_BLOCK = registerBlock("newmerite_block",
+            () -> new Block(BlockBehaviour.Properties.of()
+                    .strength(2.0f, 6.5f).requiresCorrectToolForDrops()
+                    .sound(SoundType.METAL)));
+
+    public static final DeferredBlock<Block> NEWMERITE_ORE = registerBlock("newmerite_ore",
+            () -> new Block(BlockBehaviour.Properties.of()
+                    .strength(2.0f, 6.5f).requiresCorrectToolForDrops()
+                    .sound(SoundType.STONE)));
+
     private static <T extends Block> DeferredBlock<T> registerBlock(String name, Supplier<T> block) {
         DeferredBlock<T> toReturn = BLOCKS.register(name, block);
         registerBlockItem(name, toReturn);

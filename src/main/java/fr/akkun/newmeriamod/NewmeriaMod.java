@@ -1,6 +1,7 @@
 package fr.akkun.newmeriamod;
 
 import fr.akkun.newmeriamod.block.ModBlocks;
+import fr.akkun.newmeriamod.item.ModCreativeModTabs;
 import fr.akkun.newmeriamod.item.ModItems;
 import org.slf4j.Logger;
 
@@ -33,6 +34,8 @@ public class NewmeriaMod {
 
         NeoForge.EVENT_BUS.register(this);
 
+        ModCreativeModTabs.register(modEventBus);
+
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
 
@@ -46,8 +49,9 @@ public class NewmeriaMod {
     }
 
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
-        if(event.getTabKey() == CreativeModeTabs.INGREDIENTS){
+        /*if(event.getTabKey() == CreativeModeTabs.INGREDIENTS){
             event.accept(ModItems.OBSIDIAN_STICK);
+            event.accept(ModItems.NEWMERITE);
         }
 
         if(event.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS){
@@ -58,11 +62,16 @@ public class NewmeriaMod {
             event.accept(ModBlocks.MOSSY_COBBLED_MARBLE);
             event.accept(ModBlocks.MOSSY_MARBLE_BRICKS);
             event.accept(ModBlocks.CRACKED_MARBLE_BRICKS);
+            event.accept(ModBlocks.NEWMERITE_ORE);
         }
 
         if(event.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES){
             event.accept(ModItems.SPATULA);
         }
+
+        if(event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS){
+            event.accept(ModBlocks.NEWMERITE_BLOCK);
+        }*/
     }
 
     @SubscribeEvent

@@ -1,6 +1,7 @@
 {
   "item.newmeriamod.obsidian_stick": "Obsidian Stick",
   "item.newmeriamod.spatula": "Spatula",
+  "item.newmeriamod.newmerite": "Newmerite",
 
   "block.newmeriamod.marble": "Marble",
   "block.newmeriamod.marble_bricks": "Marble Bricks",
@@ -8,5 +9,9 @@
   "block.newmeriamod.chiseled_marble_bricks": "Chiseled Marble Bricks",
   "block.newmeriamod.mossy_cobbled_marble": "Mossy Cobbled Marble",
   "block.newmeriamod.mossy_marble_bricks": "Mossy Marble Bricks",
-  "block.newmeriamod.cracked_marble_bricks": "Cracked Marble Bricks"
+  "block.newmeriamod.cracked_marble_bricks": "Cracked Marble Bricks",
+  "block.newmeriamod.newmerite_block": "Newmerite Block",
+  "block.newmeriamod.newmerite_ore": "Newmerite Ore",
+
+  "creativetab.newmeriamod.newmeria_tab": "Newmeria"
 }
