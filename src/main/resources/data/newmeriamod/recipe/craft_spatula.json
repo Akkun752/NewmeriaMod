@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "O": {
+      "item": "newmeriamod:obsidian_stick"
+    },
+    "I": {
+        "item": "minecraft:iron_ingot"
+    }
+  },
+  "pattern": [
+    "I",
+    "O"
+  ],
+  "result": {
+    "count": 1,
+    "id": "newmeriamod:spatula"
+  }
+}

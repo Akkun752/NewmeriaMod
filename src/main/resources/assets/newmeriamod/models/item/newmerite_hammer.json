@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/handheld",
   "textures": {
-    "layer0": "newmeriamod:item/spatula"
+    "layer0": "newmeriamod:item/newmerite_hammer"
   }
 }

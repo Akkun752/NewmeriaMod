@@ -24,6 +24,20 @@ public class ModCreativeModTabs {
                         output.accept(ModItems.OBSIDIAN_STICK);
                         output.accept(ModItems.SPATULA);
                         output.accept(ModItems.PEER);
+                        output.accept(ModItems.NEWMERITE_SWORD);
+                        output.accept(ModItems.NEWMERITE_PICKAXE);
+                        output.accept(ModItems.NEWMERITE_SHOVEL);
+                        output.accept(ModItems.NEWMERITE_AXE);
+                        output.accept(ModItems.NEWMERITE_HOE);
+
+                        output.accept(ModItems.WOODEN_HAMMER);
+                        output.accept(ModItems.STONE_HAMMER);
+                        output.accept(ModItems.IRON_HAMMER);
+                        output.accept(ModItems.GOLDEN_HAMMER);
+                        output.accept(ModItems.DIAMOND_HAMMER);
+                        output.accept(ModItems.NETHERITE_HAMMER);
+                        output.accept(ModItems.NEWMERITE_HAMMER);
+
                         output.accept(ModBlocks.NEWMERITE_BLOCK);
                         output.accept(ModBlocks.NEWMERITE_ORE);
                         output.accept(ModBlocks.MARBLE);

@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "newmerite",
+  "ingredients" : [
+    {
+      "item": "newmeriamod:newmerite_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "id": "newmeriamod:newmerite"
+  }
+}

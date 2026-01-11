@@ -3,6 +3,11 @@
   "item.newmeriamod.spatula": "Spatule",
   "item.newmeriamod.newmerite": "Newmerite",
   "item.newmeriamod.peer": "Poire",
+  "item.newmeriamod.newmerite_sword": "Épée en newmerite",
+  "item.newmeriamod.newmerite_pickaxe": "Pioche en newmerite",
+  "item.newmeriamod.newmerite_shovel": "Pelle en newmerite",
+  "item.newmeriamod.newmerite_axe": "Hahce en newmerite",
+  "item.newmeriamod.newmerite_hoe": "Houe en newmerite",
 
   "block.newmeriamod.marble": "Marbre",
   "block.newmeriamod.marble_bricks": "Marbre taillé",

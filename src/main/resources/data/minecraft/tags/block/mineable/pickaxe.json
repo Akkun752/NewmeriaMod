@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "newmeriamod:newmerite_block",
+    "newmeriamod:newmerite_ore",
+    "newmeriamod:marble",
+    "newmeriamod:cobbled_marble",
+    "newmeriamod:chiseled_marble_bricks",
+    "newmeriamod:marble_bricks",
+    "newmeriamod:cracked_marble_bricks",
+    "newmeriamod:mossy_marble_bricks",
+    "newmeriamod:mossy_cobbled_marble"
+  ]
+}

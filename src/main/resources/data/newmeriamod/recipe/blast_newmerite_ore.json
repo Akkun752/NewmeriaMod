@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 1.0,
+  "group": "newmerite",
+  "ingredient": {
+    "item": "newmeriamod:newmerite_ore"
+  },
+  "result": {
+    "id": "newmeriamod:newmerite"
+  }
+}
