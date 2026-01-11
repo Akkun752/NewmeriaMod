@@ -23,6 +23,7 @@ public class ModCreativeModTabs {
                         output.accept(ModItems.NEWMERITE);
                         output.accept(ModItems.OBSIDIAN_STICK);
                         output.accept(ModItems.SPATULA);
+                        output.accept(ModItems.PEER);
                         output.accept(ModBlocks.NEWMERITE_BLOCK);
                         output.accept(ModBlocks.NEWMERITE_ORE);
                         output.accept(ModBlocks.MARBLE);

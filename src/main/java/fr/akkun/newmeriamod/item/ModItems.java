@@ -15,6 +15,8 @@ public class ModItems {
             () -> new Item(new Item.Properties()));
     public static final DeferredItem<Item> NEWMERITE = ITEMS.register("newmerite",
             () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> PEER = ITEMS.register("peer",
+            () -> new Item(new Item.Properties().food(ModFoodProperties.PEER)));
 
 
 
