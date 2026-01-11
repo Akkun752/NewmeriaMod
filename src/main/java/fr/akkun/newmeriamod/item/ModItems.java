@@ -49,6 +49,20 @@ public class ModItems {
                             .attributes(HoeItem.createAttributes(ModToolTiers.NEWMERITE, -3.0F, 0.0F))
                     ));
 
+    public static final DeferredItem<ArmorItem> NEWMERITE_HELMET = ITEMS.register("newmerite_helmet",
+            () -> new ArmorItem(ModArmorMaterials.NEWMERITE_ARMOR_MATERIAL, ArmorItem.Type.HELMET,
+                    new Item.Properties().durability(ArmorItem.Type.HELMET.getDurability(37))));
+    public static final DeferredItem<ArmorItem> NEWMERITE_CHESTPLATE = ITEMS.register("newmerite_chestplate",
+            () -> new ArmorItem(ModArmorMaterials.NEWMERITE_ARMOR_MATERIAL, ArmorItem.Type.CHESTPLATE,
+                    new Item.Properties().durability(ArmorItem.Type.CHESTPLATE.getDurability(37))));
+    public static final DeferredItem<ArmorItem> NEWMERITE_LEGGINGS = ITEMS.register("newmerite_leggings",
+            () -> new ArmorItem(ModArmorMaterials.NEWMERITE_ARMOR_MATERIAL, ArmorItem.Type.LEGGINGS,
+                    new Item.Properties().durability(ArmorItem.Type.LEGGINGS.getDurability(37))));
+    public static final DeferredItem<ArmorItem> NEWMERITE_BOOTS = ITEMS.register("newmerite_boots",
+            () -> new ArmorItem(ModArmorMaterials.NEWMERITE_ARMOR_MATERIAL, ArmorItem.Type.BOOTS,
+                    new Item.Properties().durability(ArmorItem.Type.BOOTS.getDurability(37))));
+
+
     public static final DeferredItem<HammerItem> WOODEN_HAMMER =
             ITEMS.register("wooden_hammer",
                     () -> new HammerItem(Tiers.WOOD, new Item.Properties()

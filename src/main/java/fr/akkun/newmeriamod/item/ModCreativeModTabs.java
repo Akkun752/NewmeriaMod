@@ -20,15 +20,22 @@ public class ModCreativeModTabs {
                     .icon(() -> new ItemStack(ModItems.NEWMERITE.get()))
                     .title(Component.translatable("creativetab.newmeriamod.newmeria_tab"))
                     .displayItems((itemDisplayParameters, output) -> {
-                        output.accept(ModItems.NEWMERITE);
+                        output.accept(ModItems.PEER);
                         output.accept(ModItems.OBSIDIAN_STICK);
                         output.accept(ModItems.SPATULA);
-                        output.accept(ModItems.PEER);
+
+                        output.accept(ModItems.NEWMERITE);
                         output.accept(ModItems.NEWMERITE_SWORD);
                         output.accept(ModItems.NEWMERITE_PICKAXE);
                         output.accept(ModItems.NEWMERITE_SHOVEL);
                         output.accept(ModItems.NEWMERITE_AXE);
                         output.accept(ModItems.NEWMERITE_HOE);
+                        output.accept(ModItems.NEWMERITE_HELMET);
+                        output.accept(ModItems.NEWMERITE_CHESTPLATE);
+                        output.accept(ModItems.NEWMERITE_LEGGINGS);
+                        output.accept(ModItems.NEWMERITE_BOOTS);
+                        output.accept(ModBlocks.NEWMERITE_BLOCK);
+                        output.accept(ModBlocks.NEWMERITE_ORE);
 
                         output.accept(ModItems.WOODEN_HAMMER);
                         output.accept(ModItems.STONE_HAMMER);
@@ -38,8 +45,6 @@ public class ModCreativeModTabs {
                         output.accept(ModItems.NETHERITE_HAMMER);
                         output.accept(ModItems.NEWMERITE_HAMMER);
 
-                        output.accept(ModBlocks.NEWMERITE_BLOCK);
-                        output.accept(ModBlocks.NEWMERITE_ORE);
                         output.accept(ModBlocks.MARBLE);
                         output.accept(ModBlocks.COBBLED_MARBLE);
                         output.accept(ModBlocks.MARBLE_BRICKS);
