@@ -8,12 +8,12 @@
     }
   },
   "pattern" : [
-    "EEE",
+    "E E",
     "EEE",
     "EEE"
   ],
   "result": {
     "count": 1,
-    "id": "newmeriamod:enderite_block"
+    "id": "newmeriamod:enderite_chestplate"
   }
 }

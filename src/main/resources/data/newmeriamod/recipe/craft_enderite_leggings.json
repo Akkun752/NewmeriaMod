@@ -9,11 +9,11 @@
   },
   "pattern" : [
     "EEE",
-    "EEE",
-    "EEE"
+    "E E",
+    "E E"
   ],
   "result": {
     "count": 1,
-    "id": "newmeriamod:enderite_block"
+    "id": "newmeriamod:enderite_leggings"
   }
 }
