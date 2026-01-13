@@ -1,8 +1,8 @@
 {
   "replace": false,
   "values": [
-    "newmeriamod:newmerite_block",
-    "newmeriamod:newmerite_ore",
+    "newmeriamod:ender_ancient_debris",
+    "newmeriamod:enderite_block",
     "newmeriamod:marble",
     "newmeriamod:cobbled_marble",
     "newmeriamod:chiseled_marble_bricks",

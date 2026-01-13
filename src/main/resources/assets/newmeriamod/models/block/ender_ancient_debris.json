@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "newmeriamod:block/ender_ancient_debris_top",
+    "side": "newmeriamod:block/ender_ancient_debris_side"
+  }
+}

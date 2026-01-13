@@ -12,10 +12,14 @@ public class ModItems {
 
     public static final DeferredItem<Item> OBSIDIAN_STICK = ITEMS.register("obsidian_stick",
             () -> new Item(new Item.Properties()));
-    public static final DeferredItem<Item> NEWMERITE = ITEMS.register("newmerite",
+    public static final DeferredItem<Item> ENDERITE_INGOT = ITEMS.register("enderite_ingot",
             () -> new Item(new Item.Properties()));
     public static final DeferredItem<Item> PEER = ITEMS.register("peer",
             () -> new Item(new Item.Properties().food(ModFoodProperties.PEER)));
+
+
+    public static final DeferredItem<Item> ENDERITE_SCRAP = ITEMS.register("enderite_scrap",
+            () -> new Item(new Item.Properties()));
 
 
     public static final DeferredItem<Item> SPATULA = ITEMS.register("spatula",
@@ -23,43 +27,43 @@ public class ModItems {
                     .attributes(SwordItem.createAttributes(ModToolTiers.SPATULA, 3, -2.4f))
             ));
 
-    public static final DeferredItem<SwordItem> NEWMERITE_SWORD =
-            ITEMS.register("newmerite_sword",
-                    () -> new SwordItem(ModToolTiers.NEWMERITE, new Item.Properties()
-                            .attributes(SwordItem.createAttributes(ModToolTiers.NEWMERITE, 3, -2.4f))
+    public static final DeferredItem<SwordItem> ENDERITE_SWORD =
+            ITEMS.register("enderite_sword",
+                    () -> new SwordItem(ModToolTiers.ENDERITE, new Item.Properties()
+                            .attributes(SwordItem.createAttributes(ModToolTiers.ENDERITE, 3, -2.4f))
                     ));
-    public static final DeferredItem<PickaxeItem> NEWMERITE_PICKAXE =
-            ITEMS.register("newmerite_pickaxe",
-                    () -> new PickaxeItem(ModToolTiers.NEWMERITE, new Item.Properties()
-                            .attributes(PickaxeItem.createAttributes(ModToolTiers.NEWMERITE, 1.0F, -2.8F))
+    public static final DeferredItem<PickaxeItem> ENDERITE_PICKAXE =
+            ITEMS.register("enderite_pickaxe",
+                    () -> new PickaxeItem(ModToolTiers.ENDERITE, new Item.Properties()
+                            .attributes(PickaxeItem.createAttributes(ModToolTiers.ENDERITE, 1.0F, -2.8F))
                     ));
-    public static final DeferredItem<ShovelItem> NEWMERITE_SHOVEL =
-            ITEMS.register("newmerite_shovel",
-                    () -> new ShovelItem(ModToolTiers.NEWMERITE, new Item.Properties()
-                            .attributes(ShovelItem.createAttributes(ModToolTiers.NEWMERITE, 1.5F, -3.0F))
+    public static final DeferredItem<ShovelItem> ENDERITE_SHOVEL =
+            ITEMS.register("enderite_shovel",
+                    () -> new ShovelItem(ModToolTiers.ENDERITE, new Item.Properties()
+                            .attributes(ShovelItem.createAttributes(ModToolTiers.ENDERITE, 1.5F, -3.0F))
                     ));
-    public static final DeferredItem<AxeItem> NEWMERITE_AXE =
-            ITEMS.register("newmerite_axe",
-                    () -> new AxeItem(ModToolTiers.NEWMERITE, new Item.Properties()
-                            .attributes(AxeItem.createAttributes(ModToolTiers.NEWMERITE, 5.0F, -3.0F))
+    public static final DeferredItem<AxeItem> ENDERITE_AXE =
+            ITEMS.register("enderite_axe",
+                    () -> new AxeItem(ModToolTiers.ENDERITE, new Item.Properties()
+                            .attributes(AxeItem.createAttributes(ModToolTiers.ENDERITE, 5.0F, -3.0F))
                     ));
-    public static final DeferredItem<HoeItem> NEWMERITE_HOE =
-            ITEMS.register("newmerite_hoe",
-                    () -> new HoeItem(ModToolTiers.NEWMERITE, new Item.Properties()
-                            .attributes(HoeItem.createAttributes(ModToolTiers.NEWMERITE, -3.0F, 0.0F))
+    public static final DeferredItem<HoeItem> ENDERITE_HOE =
+            ITEMS.register("enderite_hoe",
+                    () -> new HoeItem(ModToolTiers.ENDERITE, new Item.Properties()
+                            .attributes(HoeItem.createAttributes(ModToolTiers.ENDERITE, -3.0F, 0.0F))
                     ));
 
-    public static final DeferredItem<ArmorItem> NEWMERITE_HELMET = ITEMS.register("newmerite_helmet",
-            () -> new ArmorItem(ModArmorMaterials.NEWMERITE_ARMOR_MATERIAL, ArmorItem.Type.HELMET,
+    public static final DeferredItem<ArmorItem> ENDERITE_HELMET = ITEMS.register("enderite_helmet",
+            () -> new ArmorItem(ModArmorMaterials.ENDERITE_ARMOR_MATERIAL, ArmorItem.Type.HELMET,
                     new Item.Properties().durability(ArmorItem.Type.HELMET.getDurability(37))));
-    public static final DeferredItem<ArmorItem> NEWMERITE_CHESTPLATE = ITEMS.register("newmerite_chestplate",
-            () -> new ArmorItem(ModArmorMaterials.NEWMERITE_ARMOR_MATERIAL, ArmorItem.Type.CHESTPLATE,
+    public static final DeferredItem<ArmorItem> ENDERITE_CHESTPLATE = ITEMS.register("enderite_chestplate",
+            () -> new ArmorItem(ModArmorMaterials.ENDERITE_ARMOR_MATERIAL, ArmorItem.Type.CHESTPLATE,
                     new Item.Properties().durability(ArmorItem.Type.CHESTPLATE.getDurability(37))));
-    public static final DeferredItem<ArmorItem> NEWMERITE_LEGGINGS = ITEMS.register("newmerite_leggings",
-            () -> new ArmorItem(ModArmorMaterials.NEWMERITE_ARMOR_MATERIAL, ArmorItem.Type.LEGGINGS,
+    public static final DeferredItem<ArmorItem> ENDERITE_LEGGINGS = ITEMS.register("enderite_leggings",
+            () -> new ArmorItem(ModArmorMaterials.ENDERITE_ARMOR_MATERIAL, ArmorItem.Type.LEGGINGS,
                     new Item.Properties().durability(ArmorItem.Type.LEGGINGS.getDurability(37))));
-    public static final DeferredItem<ArmorItem> NEWMERITE_BOOTS = ITEMS.register("newmerite_boots",
-            () -> new ArmorItem(ModArmorMaterials.NEWMERITE_ARMOR_MATERIAL, ArmorItem.Type.BOOTS,
+    public static final DeferredItem<ArmorItem> ENDERITE_BOOTS = ITEMS.register("enderite_boots",
+            () -> new ArmorItem(ModArmorMaterials.ENDERITE_ARMOR_MATERIAL, ArmorItem.Type.BOOTS,
                     new Item.Properties().durability(ArmorItem.Type.BOOTS.getDurability(37))));
 
 
@@ -93,10 +97,10 @@ public class ModItems {
                     () -> new HammerItem(Tiers.NETHERITE, new Item.Properties()
                             .attributes(PickaxeItem.createAttributes(Tiers.NETHERITE, 1.0F, -2.8F))
                     ));
-    public static final DeferredItem<HammerItem> NEWMERITE_HAMMER =
-            ITEMS.register("newmerite_hammer",
-                    () -> new HammerItem(ModToolTiers.NEWMERITE, new Item.Properties()
-                            .attributes(PickaxeItem.createAttributes(ModToolTiers.NEWMERITE, 1.0F, -2.8F))
+    public static final DeferredItem<HammerItem> ENDERITE_HAMMER =
+            ITEMS.register("enderite_hammer",
+                    () -> new HammerItem(ModToolTiers.ENDERITE, new Item.Properties()
+                            .attributes(PickaxeItem.createAttributes(ModToolTiers.ENDERITE, 1.0F, -2.8F))
                     ));
 
     public static void register(IEventBus eventBus){

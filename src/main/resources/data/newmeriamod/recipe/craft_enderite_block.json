@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "enderite",
+  "key": {
+    "E": {
+      "item": "newmeriamod:enderite_ingot"
+    }
+  },
+  "pattern" : [
+    "EEE",
+    "EE",
+    "EEE"
+  ],
+  "result": {
+    "count": 1,
+    "id": "newmeriamod:enderite_block"
+  }
+}

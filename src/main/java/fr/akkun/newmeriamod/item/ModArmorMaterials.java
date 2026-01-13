@@ -18,14 +18,14 @@ import java.util.List;
 import java.util.function.Supplier;
 
 public class ModArmorMaterials {
-    public static final Holder<ArmorMaterial> NEWMERITE_ARMOR_MATERIAL = register("newmerite",
+    public static final Holder<ArmorMaterial> ENDERITE_ARMOR_MATERIAL = register("enderite",
             Util.make(new EnumMap<>(ArmorItem.Type.class), attribute -> {
-                attribute.put(ArmorItem.Type.BOOTS, 3);
-                attribute.put(ArmorItem.Type.LEGGINGS, 6);
-                attribute.put(ArmorItem.Type.CHESTPLATE, 8);
-                attribute.put(ArmorItem.Type.HELMET, 3);
-                attribute.put(ArmorItem.Type.BODY, 11);
-            }), 16, 2f, 0.1f, () -> ModItems.NEWMERITE.get());
+                attribute.put(ArmorItem.Type.BOOTS, 4);
+                attribute.put(ArmorItem.Type.LEGGINGS, 7);
+                attribute.put(ArmorItem.Type.CHESTPLATE, 10);
+                attribute.put(ArmorItem.Type.HELMET, 4);
+                attribute.put(ArmorItem.Type.BODY, 14);
+            }), 16, 2f, 0.1f, () -> ModItems.ENDERITE_INGOT.get());
 
 
     private static Holder<ArmorMaterial> register(String name, EnumMap<ArmorItem.Type, Integer> typeProtection,

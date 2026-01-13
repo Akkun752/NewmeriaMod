@@ -8,6 +8,21 @@
   "item.newmeriamod.newmerite_shovel": "Pelle en newmerite",
   "item.newmeriamod.newmerite_axe": "Hahce en newmerite",
   "item.newmeriamod.newmerite_hoe": "Houe en newmerite",
+  "item.newmeriamod.newmerite_helmet": "Casque en newmerite",
+  "item.newmeriamod.newmerite_chestplate": "Plastron en newmerite",
+  "item.newmeriamod.newmerite_leggings": "Jambières en newmerite",
+  "item.newmeriamod.newmerite_boots": "Bottes en newmerite",
+
+  "item.newmeriamod.enderite_scrap": "Fragment d'enderite",
+  "block.newmeriamod.ender_ancient_debris": "Débris antique de l'End",
+
+  "item.newmeriamod.wooden_hammer": "Marteau en bois",
+  "item.newmeriamod.stone_hammer": "Marteau en pierre",
+  "item.newmeriamod.iron_hammer": "Marteau en fer",
+  "item.newmeriamod.golden_hammer": "Marteau en or",
+  "item.newmeriamod.diamond_hammer": "Marteau en diamant",
+  "item.newmeriamod.netherite_hammer": "Marteau en netherite",
+  "item.newmeriamod.newmerite_hammer": "Marteau en newmerite",
 
   "block.newmeriamod.marble": "Marbre",
   "block.newmeriamod.marble_bricks": "Marbre taillé",

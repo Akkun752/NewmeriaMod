@@ -17,25 +17,26 @@ public class ModCreativeModTabs {
 
     public static final Supplier<CreativeModeTab> NEWMERIA_TAB = CREATIVE_MODE_TAB.register("newmeria_tab",
             () -> CreativeModeTab.builder()
-                    .icon(() -> new ItemStack(ModItems.NEWMERITE.get()))
+                    .icon(() -> new ItemStack(ModItems.PEER.get()))
                     .title(Component.translatable("creativetab.newmeriamod.newmeria_tab"))
                     .displayItems((itemDisplayParameters, output) -> {
                         output.accept(ModItems.PEER);
                         output.accept(ModItems.OBSIDIAN_STICK);
                         output.accept(ModItems.SPATULA);
 
-                        output.accept(ModItems.NEWMERITE);
-                        output.accept(ModItems.NEWMERITE_SWORD);
-                        output.accept(ModItems.NEWMERITE_PICKAXE);
-                        output.accept(ModItems.NEWMERITE_SHOVEL);
-                        output.accept(ModItems.NEWMERITE_AXE);
-                        output.accept(ModItems.NEWMERITE_HOE);
-                        output.accept(ModItems.NEWMERITE_HELMET);
-                        output.accept(ModItems.NEWMERITE_CHESTPLATE);
-                        output.accept(ModItems.NEWMERITE_LEGGINGS);
-                        output.accept(ModItems.NEWMERITE_BOOTS);
-                        output.accept(ModBlocks.NEWMERITE_BLOCK);
-                        output.accept(ModBlocks.NEWMERITE_ORE);
+                        output.accept(ModItems.ENDERITE_SCRAP);
+                        output.accept(ModBlocks.ENDER_ANCIENT_DEBRIS);
+                        output.accept(ModItems.ENDERITE_INGOT);
+                        output.accept(ModItems.ENDERITE_SWORD);
+                        output.accept(ModItems.ENDERITE_PICKAXE);
+                        output.accept(ModItems.ENDERITE_SHOVEL);
+                        output.accept(ModItems.ENDERITE_AXE);
+                        output.accept(ModItems.ENDERITE_HOE);
+                        output.accept(ModItems.ENDERITE_HELMET);
+                        output.accept(ModItems.ENDERITE_CHESTPLATE);
+                        output.accept(ModItems.ENDERITE_LEGGINGS);
+                        output.accept(ModItems.ENDERITE_BOOTS);
+                        output.accept(ModBlocks.ENDERITE_BLOCK);
 
                         output.accept(ModItems.WOODEN_HAMMER);
                         output.accept(ModItems.STONE_HAMMER);
@@ -43,7 +44,7 @@ public class ModCreativeModTabs {
                         output.accept(ModItems.GOLDEN_HAMMER);
                         output.accept(ModItems.DIAMOND_HAMMER);
                         output.accept(ModItems.NETHERITE_HAMMER);
-                        output.accept(ModItems.NEWMERITE_HAMMER);
+                        output.accept(ModItems.ENDERITE_HAMMER);
 
                         output.accept(ModBlocks.MARBLE);
                         output.accept(ModBlocks.COBBLED_MARBLE);

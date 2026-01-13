@@ -1,18 +1,20 @@
 {
   "item.newmeriamod.obsidian_stick": "Obsidian Stick",
   "item.newmeriamod.spatula": "Spatula",
-  "item.newmeriamod.newmerite": "Newmerite",
   "item.newmeriamod.peer": "Peer",
-  "item.newmeriamod.newmerite_sword": "Newmerite Sword",
-  "item.newmeriamod.newmerite_pickaxe": "Newmerite Pickaxe",
-  "item.newmeriamod.newmerite_shovel": "Newmerite Shovel",
-  "item.newmeriamod.newmerite_axe": "Newmerite Axe",
-  "item.newmeriamod.newmerite_hoe": "Newmerite Hoe",
-  "item.newmeriamod.newmerite_helmet": "Newmerite Helmet",
-  "item.newmeriamod.newmerite_chestplate": "Newmerite Chestplate",
-  "item.newmeriamod.newmerite_leggings": "Newmerite Leggings",
-  "item.newmeriamod.newmerite_boots": "Newmerite Boots",
 
+
+  "item.newmeriamod.enderite_ingot": "Enderite Ingot",
+  "item.newmeriamod.enderite_pickaxe": "Enderite Pickaxe",
+  "item.newmeriamod.enderite_shovel": "Enderite Shovel",
+  "item.newmeriamod.enderite_axe": "Enderite Axe",
+  "item.newmeriamod.enderite_hoe": "Enderite Hoe",
+  "item.newmeriamod.enderite_helmet": "Enderite Helmet",
+  "item.newmeriamod.enderite_chestplate": "Enderite Chestplate",
+  "item.newmeriamod.enderite_leggings": "Enderite Leggings",
+  "item.newmeriamod.enderite_boots": "Enderite Boots",
+  "item.newmeriamod.enderite_scrap": "Enderite Scrap",
+  "block.newmeriamod.ender_ancient_debris": "Ender Ancient Debris",
 
   "item.newmeriamod.wooden_hammer": "Wooden Hammer",
   "item.newmeriamod.stone_hammer": "Stone Hammer",
@@ -20,7 +22,7 @@
   "item.newmeriamod.golden_hammer": "Golden Hammer",
   "item.newmeriamod.diamond_hammer": "Diamond Hammer",
   "item.newmeriamod.netherite_hammer": "Netherite Hammer",
-  "item.newmeriamod.newmerite_hammer": "Newmerite Hammer",
+  "item.newmeriamod.enderite_hammer": "Enderite Hammer",
 
   "block.newmeriamod.marble": "Marble",
   "block.newmeriamod.marble_bricks": "Marble Bricks",
@@ -29,8 +31,6 @@
   "block.newmeriamod.mossy_cobbled_marble": "Mossy Cobbled Marble",
   "block.newmeriamod.mossy_marble_bricks": "Mossy Marble Bricks",
   "block.newmeriamod.cracked_marble_bricks": "Cracked Marble Bricks",
-  "block.newmeriamod.newmerite_block": "Newmerite Block",
-  "block.newmeriamod.newmerite_ore": "Newmerite Ore",
 
   "creativetab.newmeriamod.newmeria_tab": "Newmeria"
 }
