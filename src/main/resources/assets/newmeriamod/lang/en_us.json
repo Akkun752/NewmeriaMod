@@ -3,8 +3,8 @@
   "item.newmeriamod.spatula": "Spatula",
   "item.newmeriamod.peer": "Peer",
 
-
   "item.newmeriamod.enderite_ingot": "Enderite Ingot",
+  "item.newmeriamod.enderite_sword": "Enderite Sword",
   "item.newmeriamod.enderite_pickaxe": "Enderite Pickaxe",
   "item.newmeriamod.enderite_shovel": "Enderite Shovel",
   "item.newmeriamod.enderite_axe": "Enderite Axe",
@@ -15,6 +15,7 @@
   "item.newmeriamod.enderite_boots": "Enderite Boots",
   "item.newmeriamod.enderite_scrap": "Enderite Scrap",
   "block.newmeriamod.ender_ancient_debris": "Ender Ancient Debris",
+  "block.newmeriamod.enderite_block": "Enderite Block",
 
   "item.newmeriamod.wooden_hammer": "Wooden Hammer",
   "item.newmeriamod.stone_hammer": "Stone Hammer",
@@ -31,6 +32,11 @@
   "block.newmeriamod.mossy_cobbled_marble": "Mossy Cobbled Marble",
   "block.newmeriamod.mossy_marble_bricks": "Mossy Marble Bricks",
   "block.newmeriamod.cracked_marble_bricks": "Cracked Marble Bricks",
+  "block.newmeriamod.marble_stairs": "Marble Stairs",
+  "block.newmeriamod.marble_slab": "Marble Slab",
+  "block.newmeriamod.marble_pressure_plate": "Marble Pressure Plate",
+  "block.newmeriamod.marble_button": "Marble Button",
+  "block.newmeriamod.marble_wall": "Marble Wall",
 
   "creativetab.newmeriamod.newmeria_tab": "Newmeria"
 }
