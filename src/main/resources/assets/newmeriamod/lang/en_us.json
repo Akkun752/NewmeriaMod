@@ -38,5 +38,20 @@
   "block.newmeriamod.marble_button": "Marble Button",
   "block.newmeriamod.marble_wall": "Marble Wall",
 
-  "creativetab.newmeriamod.newmeria_tab": "Newmeria"
+  "creativetab.newmeriamod.newmeria_tab": "Newmeria",
+
+  "creativetab.newmeriamod.paladium_tab": "Paladium",
+  "item.newmeriamod.paladium_ingot": "Paladium Ingot",
+  "item.newmeriamod.paladium_sword": "Paladium Sword",
+  "item.newmeriamod.paladium_pickaxe": "Paladium Pickaxe",
+  "item.newmeriamod.paladium_shovel": "Paladium Shovel",
+  "item.newmeriamod.paladium_axe": "Paladium Axe",
+  "item.newmeriamod.paladium_hoe": "Paladium Hoe",
+  "item.newmeriamod.paladium_hammer": "Paladium Hammer",
+  "item.newmeriamod.paladium_helmet": "Paladium Helmet",
+  "item.newmeriamod.paladium_chestplate": "Paladium Chestplate",
+  "item.newmeriamod.paladium_leggings": "Paladium Leggings",
+  "item.newmeriamod.paladium_boots": "Paladium Boots",
+  "block.newmeriamod.paladium_ore": "Paladium Ore",
+  "block.newmeriamod.paladium_block": "Paladium Block"
 }

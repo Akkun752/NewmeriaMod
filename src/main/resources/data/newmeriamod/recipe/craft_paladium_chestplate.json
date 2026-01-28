@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "paladium",
+  "key": {
+    "E": {
+      "item": "newmeriamod:paladium_ingot"
+    }
+  },
+  "pattern" : [
+    "E E",
+    "EEE",
+    "EEE"
+  ],
+  "result": {
+    "count": 1,
+    "id": "newmeriamod:paladium_chestplate"
+  }
+}

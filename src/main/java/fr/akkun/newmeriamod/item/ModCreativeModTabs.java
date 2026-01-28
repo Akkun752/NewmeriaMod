@@ -61,6 +61,32 @@ public class ModCreativeModTabs {
                     })
                     .build());
 
+    public static final Supplier<CreativeModeTab> PALADIUM_TAB = CREATIVE_MODE_TAB.register("paladium_tab",
+            () -> CreativeModeTab.builder()
+                    .icon(() -> new ItemStack(ModItems.PALADIUM_INGOT.get()))
+                    .title(Component.translatable("creativetab.newmeriamod.paladium_tab"))
+                    .displayItems((itemDisplayParameters, output) -> {
+                        output.accept(ModItems.PALADIUM_INGOT);
+
+                        output.accept(ModBlocks.PALADIUM_ORE);
+                        output.accept(ModBlocks.PALADIUM_BLOCK);
+
+                        output.accept(ModItems.PALADIUM_SWORD);
+                        output.accept(ModItems.PALADIUM_PICKAXE);
+                        output.accept(ModItems.PALADIUM_SHOVEL);
+                        output.accept(ModItems.PALADIUM_AXE);
+                        output.accept(ModItems.PALADIUM_HOE);
+
+                        output.accept(ModItems.PALADIUM_HELMET);
+                        output.accept(ModItems.PALADIUM_CHESTPLATE);
+                        output.accept(ModItems.PALADIUM_LEGGINGS);
+                        output.accept(ModItems.PALADIUM_BOOTS);
+
+                        output.accept(ModItems.PALADIUM_HAMMER);
+                    })
+                    .build());
+
+
     public static void register(IEventBus eventBus) {
         CREATIVE_MODE_TAB.register(eventBus);
     }

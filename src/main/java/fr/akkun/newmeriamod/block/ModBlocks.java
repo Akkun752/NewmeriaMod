@@ -88,6 +88,16 @@ public class ModBlocks {
     public static final DeferredBlock<WallBlock> COBBLED_MARBLE_WALL = registerBlock("cobbled_marble_wall",
             () -> new WallBlock(BlockBehaviour.Properties.of().strength(2.0f).requiresCorrectToolForDrops()));
 
+    public static final DeferredBlock<Block> PALADIUM_ORE = registerBlock("paladium_ore",
+            () -> new Block(BlockBehaviour.Properties.of()
+                    .strength(4.0f, 6.0f).requiresCorrectToolForDrops()
+                    .sound(SoundType.STONE)));
+
+    public static final DeferredBlock<Block> PALADIUM_BLOCK = registerBlock("paladium_block",
+            () -> new Block(BlockBehaviour.Properties.of()
+                    .strength(5.5f, 7.0f).requiresCorrectToolForDrops()
+                    .sound(SoundType.METAL)));
+
     private static <T extends Block> DeferredBlock<T> registerBlock(String name, Supplier<T> block) {
         DeferredBlock<T> toReturn = BLOCKS.register(name, block);
         registerBlockItem(name, toReturn);

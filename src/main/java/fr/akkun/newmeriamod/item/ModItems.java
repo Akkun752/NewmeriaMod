@@ -103,6 +103,54 @@ public class ModItems {
                             .attributes(PickaxeItem.createAttributes(ModToolTiers.ENDERITE, 1.0F, -2.8F))
                     ));
 
+    public static final DeferredItem<Item> PALADIUM_INGOT = ITEMS.register("paladium_ingot",
+            () -> new Item(new Item.Properties()));
+
+    public static final DeferredItem<SwordItem> PALADIUM_SWORD =
+            ITEMS.register("paladium_sword",
+                    () -> new SwordItem(ModToolTiers.PALADIUM, new Item.Properties()
+                            .attributes(SwordItem.createAttributes(ModToolTiers.PALADIUM, 3, -2.4f))
+                    ));
+    public static final DeferredItem<PickaxeItem> PALADIUM_PICKAXE =
+            ITEMS.register("paladium_pickaxe",
+                    () -> new PickaxeItem(ModToolTiers.PALADIUM, new Item.Properties()
+                            .attributes(PickaxeItem.createAttributes(ModToolTiers.PALADIUM, 1.0F, -2.8F))
+                    ));
+    public static final DeferredItem<ShovelItem> PALADIUM_SHOVEL =
+            ITEMS.register("paladium_shovel",
+                    () -> new ShovelItem(ModToolTiers.PALADIUM, new Item.Properties()
+                            .attributes(ShovelItem.createAttributes(ModToolTiers.PALADIUM, 1.25F, -3.0F))
+                    ));
+    public static final DeferredItem<AxeItem> PALADIUM_AXE =
+            ITEMS.register("paladium_axe",
+                    () -> new AxeItem(ModToolTiers.PALADIUM, new Item.Properties()
+                            .attributes(AxeItem.createAttributes(ModToolTiers.PALADIUM, 4.5F, -3.0F))
+                    ));
+    public static final DeferredItem<HoeItem> PALADIUM_HOE =
+            ITEMS.register("paladium_hoe",
+                    () -> new HoeItem(ModToolTiers.PALADIUM, new Item.Properties()
+                            .attributes(HoeItem.createAttributes(ModToolTiers.PALADIUM, -3.0F, 0.0F))
+                    ));
+
+    public static final DeferredItem<HammerItem> PALADIUM_HAMMER =
+            ITEMS.register("paladium_hammer",
+                    () -> new HammerItem(ModToolTiers.PALADIUM, new Item.Properties()
+                            .attributes(PickaxeItem.createAttributes(ModToolTiers.PALADIUM, 0.5F, -3.2F))
+                    ));
+
+    public static final DeferredItem<ArmorItem> PALADIUM_HELMET = ITEMS.register("paladium_helmet",
+            () -> new ArmorItem(ModArmorMaterials.PALADIUM_ARMOR_MATERIAL, ArmorItem.Type.HELMET,
+                    new Item.Properties().durability(ArmorItem.Type.HELMET.getDurability(34))));
+    public static final DeferredItem<ArmorItem> PALADIUM_CHESTPLATE = ITEMS.register("paladium_chestplate",
+            () -> new ArmorItem(ModArmorMaterials.PALADIUM_ARMOR_MATERIAL, ArmorItem.Type.CHESTPLATE,
+                    new Item.Properties().durability(ArmorItem.Type.CHESTPLATE.getDurability(34))));
+    public static final DeferredItem<ArmorItem> PALADIUM_LEGGINGS = ITEMS.register("paladium_leggings",
+            () -> new ArmorItem(ModArmorMaterials.PALADIUM_ARMOR_MATERIAL, ArmorItem.Type.LEGGINGS,
+                    new Item.Properties().durability(ArmorItem.Type.LEGGINGS.getDurability(34))));
+    public static final DeferredItem<ArmorItem> PALADIUM_BOOTS = ITEMS.register("paladium_boots",
+            () -> new ArmorItem(ModArmorMaterials.PALADIUM_ARMOR_MATERIAL, ArmorItem.Type.BOOTS,
+                    new Item.Properties().durability(ArmorItem.Type.BOOTS.getDurability(34))));
+
     public static void register(IEventBus eventBus){
         ITEMS.register(eventBus);
     }
