@@ -78,6 +78,7 @@ public class ModBlocks {
                     .strength(35.0F, 1400.0F).requiresCorrectToolForDrops()
                     .sound(SoundType.ANCIENT_DEBRIS)));
 
+
     public static final DeferredBlock<StairBlock> COBBLED_MARBLE_STAIRS = registerBlock("cobbled_marble_stairs",
             () -> new StairBlock(ModBlocks.MARBLE.get().defaultBlockState(),
                     BlockBehaviour.Properties.of().strength(2.0f).requiresCorrectToolForDrops()));
