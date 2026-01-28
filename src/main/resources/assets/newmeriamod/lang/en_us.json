@@ -3,7 +3,6 @@
   "item.newmeriamod.spatula": "Spatula",
   "item.newmeriamod.peer": "Peer",
 
-
   "item.newmeriamod.enderite_ingot": "Enderite Ingot",
   "item.newmeriamod.enderite_pickaxe": "Enderite Pickaxe",
   "item.newmeriamod.enderite_shovel": "Enderite Shovel",
@@ -15,6 +14,7 @@
   "item.newmeriamod.enderite_boots": "Enderite Boots",
   "item.newmeriamod.enderite_scrap": "Enderite Scrap",
   "block.newmeriamod.ender_ancient_debris": "Ender Ancient Debris",
+  "block.newmeriamod.enderite_block": "Enderite Block",
 
   "item.newmeriamod.wooden_hammer": "Wooden Hammer",
   "item.newmeriamod.stone_hammer": "Stone Hammer",
@@ -32,5 +32,20 @@
   "block.newmeriamod.mossy_marble_bricks": "Mossy Marble Bricks",
   "block.newmeriamod.cracked_marble_bricks": "Cracked Marble Bricks",
 
-  "creativetab.newmeriamod.newmeria_tab": "Newmeria"
+  "creativetab.newmeriamod.newmeria_tab": "Newmeria",
+
+  "creativetab.newmeriamod.paladium_tab": "Paladium",
+  "item.newmeriamod.paladium_ingot": "Paladium Ingot",
+  "item.newmeriamod.paladium_sword": "Paladium Sword",
+  "item.newmeriamod.paladium_pickaxe": "Paladium Pickaxe",
+  "item.newmeriamod.paladium_shovel": "Paladium Shovel",
+  "item.newmeriamod.paladium_axe": "Paladium Axe",
+  "item.newmeriamod.paladium_hoe": "Paladium Hoe",
+  "item.newmeriamod.paladium_hammer": "Paladium Hammer",
+  "item.newmeriamod.paladium_helmet": "Paladium Helmet",
+  "item.newmeriamod.paladium_chestplate": "Paladium Chestplate",
+  "item.newmeriamod.paladium_leggings": "Paladium Leggings",
+  "item.newmeriamod.paladium_boots": "Paladium Boots",
+  "block.newmeriamod.paladium_ore": "Paladium Ore",
+  "block.newmeriamod.paladium_block": "Paladium Block"
 }

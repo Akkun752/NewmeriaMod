@@ -2,6 +2,8 @@
   "replace": false,
   "values": [
     "newmeriamod:ender_ancient_debris",
-    "newmeriamod:enderite_block"
+    "newmeriamod:enderite_block",
+    "newmeriamod:paladium_ore",
+    "newmeriamod:paladium_block"
   ]
 }

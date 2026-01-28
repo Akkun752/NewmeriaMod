@@ -14,6 +14,9 @@ public class ModTags {
         public static final TagKey<Block> NEEDS_ENDERITE_TOOL = createTag("needs_enderite_tool");
         public static final TagKey<Block> INCORRECT_FOR_ENDERITE_TOOL = createTag("incorrect_for_enderite_tool");
 
+        public static final TagKey<Block> NEEDS_PALADIUM_TOOL = createTag("needs_paladium_tool");
+        public static final TagKey<Block> INCORRECT_FOR_PALADIUM_TOOL = createTag("incorrect_for_paladium_tool");
+
         public static final TagKey<Block> NEEDS_SPATULA = createTag("needs_spatula");
         public static final TagKey<Block> INCORRECT_FOR_SPATULA = createTag("incorrect_for_spatula");
 

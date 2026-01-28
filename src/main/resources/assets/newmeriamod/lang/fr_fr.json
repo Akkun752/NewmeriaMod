@@ -1,17 +1,17 @@
 {
   "item.newmeriamod.obsidian_stick": "Bâton en obsidienne",
   "item.newmeriamod.spatula": "Spatule",
-  "item.newmeriamod.newmerite": "Newmerite",
+  "item.newmeriamod.enderite_ingot": "Lingot d'enderite",
   "item.newmeriamod.peer": "Poire",
-  "item.newmeriamod.newmerite_sword": "Épée en newmerite",
-  "item.newmeriamod.newmerite_pickaxe": "Pioche en newmerite",
-  "item.newmeriamod.newmerite_shovel": "Pelle en newmerite",
-  "item.newmeriamod.newmerite_axe": "Hahce en newmerite",
-  "item.newmeriamod.newmerite_hoe": "Houe en newmerite",
-  "item.newmeriamod.newmerite_helmet": "Casque en newmerite",
-  "item.newmeriamod.newmerite_chestplate": "Plastron en newmerite",
-  "item.newmeriamod.newmerite_leggings": "Jambières en newmerite",
-  "item.newmeriamod.newmerite_boots": "Bottes en newmerite",
+  "item.newmeriamod.enderite_sword": "Épée en enderite",
+  "item.newmeriamod.enderite_pickaxe": "Pioche en enderite",
+  "item.newmeriamod.enderite_shovel": "Pelle en enderite",
+  "item.newmeriamod.enderite_axe": "Hahce en enderite",
+  "item.newmeriamod.enderite_hoe": "Houe en enderite",
+  "item.newmeriamod.enderite_helmet": "Casque en enderite",
+  "item.newmeriamod.enderite_chestplate": "Plastron en enderite",
+  "item.newmeriamod.enderite_leggings": "Jambières en enderite",
+  "item.newmeriamod.enderite_boots": "Bottes en enderite",
 
   "item.newmeriamod.enderite_scrap": "Fragment d'enderite",
   "block.newmeriamod.ender_ancient_debris": "Débris antique de l'End",
@@ -22,7 +22,7 @@
   "item.newmeriamod.golden_hammer": "Marteau en or",
   "item.newmeriamod.diamond_hammer": "Marteau en diamant",
   "item.newmeriamod.netherite_hammer": "Marteau en netherite",
-  "item.newmeriamod.newmerite_hammer": "Marteau en newmerite",
+  "item.newmeriamod.enderite_hammer": "Marteau en enderite",
 
   "block.newmeriamod.marble": "Marbre",
   "block.newmeriamod.marble_bricks": "Marbre taillé",
@@ -31,8 +31,23 @@
   "block.newmeriamod.mossy_cobbled_marble": "Pierres de marbre moussues",
   "block.newmeriamod.mossy_marble_bricks": "Marbre taillé moussu",
   "block.newmeriamod.cracked_marble_bricks": "Marbre taillé craquelé",
-  "block.newmeriamod.newmerite_block": "Bloc de newmerite",
-  "block.newmeriamod.newmerite_ore": "Minerai de newmerite",
+  "block.newmeriamod.enderite_block": "Bloc d'enderite",
 
-  "creativetab.newmeriamod.newmeria_tab": "Newmeria"
+  "creativetab.newmeriamod.newmeria_tab": "Newmeria",
+
+
+  "creativetab.newmeriamod.paladium_tab": "Paladium",
+  "item.newmeriamod.paladium_ingot": "Lingot de Paladium",
+  "item.newmeriamod.paladium_sword": "Épée en Paladium",
+  "item.newmeriamod.paladium_pickaxe": "Pioche en Paladium",
+  "item.newmeriamod.paladium_shovel": "Pelle en Paladium",
+  "item.newmeriamod.paladium_axe": "Hache en Paladium",
+  "item.newmeriamod.paladium_hoe": "Houe en Paladium",
+  "item.newmeriamod.paladium_hammer": "Marteau en Paladium",
+  "item.newmeriamod.paladium_helmet": "Casque en Paladium",
+  "item.newmeriamod.paladium_chestplate": "Plastron en Paladium",
+  "item.newmeriamod.paladium_leggings": "Jambières en Paladium",
+  "item.newmeriamod.paladium_boots": "Bottes en Paladium",
+  "block.newmeriamod.paladium_ore": "Minerai de Paladium",
+  "block.newmeriamod.paladium_block": "Bloc de Paladium"
 }

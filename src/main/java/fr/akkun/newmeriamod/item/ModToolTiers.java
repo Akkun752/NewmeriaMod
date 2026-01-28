@@ -12,4 +12,9 @@ public class ModToolTiers {
 
     public static final Tier SPATULA = new SimpleTier(ModTags.Blocks.INCORRECT_FOR_SPATULA,
             512, 6.0F, 2.0F, 14, () -> Ingredient.of(Items.IRON_INGOT));
+
+    public static final Tier PALADIUM = new SimpleTier(
+            ModTags.Blocks.INCORRECT_FOR_PALADIUM_TOOL,
+            1800, 8.5F, 3.5F, 12, () -> Ingredient.of(ModItems.PALADIUM_INGOT)
+    );
 }
