@@ -53,6 +53,11 @@ public class ModCreativeModTabs {
                         output.accept(ModBlocks.MOSSY_COBBLED_MARBLE);
                         output.accept(ModBlocks.MOSSY_MARBLE_BRICKS);
                         output.accept(ModBlocks.CRACKED_MARBLE_BRICKS);
+                        output.accept(ModBlocks.MARBLE_STAIRS);
+                        output.accept(ModBlocks.MARBLE_SLAB);
+                        output.accept(ModBlocks.MARBLE_PRESSURE_PLATE);
+                        output.accept(ModBlocks.MARBLE_BUTTON);
+                        output.accept(ModBlocks.MARBLE_WALL);
                     })
                     .build());
 

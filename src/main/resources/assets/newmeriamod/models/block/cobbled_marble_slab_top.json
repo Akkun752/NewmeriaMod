@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab_top",
+  "textures": {
+    "bottom": "newmeriamod:block/cobbled_marble",
+    "side": "newmeriamod:block/cobbled_marble",
+    "top": "newmeriamod:block/cobbled_marble"
+  }
+}
