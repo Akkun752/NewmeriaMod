@@ -1,5 +1,10 @@
 {
   "values": [
-    "newmeriamod:marble_wall"
+    "newmeriamod:marble_wall",
+    "newmeriamod:cobbled_marble_wall",
+    "newmeriamod:marble_bricks_wall",
+    "newmeriamod:mossy_cobbled_marble_wall",
+    "newmeriamod:mossy_marble_bricks_wall",
+    "newmeriamod:stone_wall"
   ]
 }

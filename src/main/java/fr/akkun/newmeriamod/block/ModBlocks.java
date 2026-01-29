@@ -60,10 +60,10 @@ public class ModBlocks {
             () -> new SlabBlock(BlockBehaviour.Properties.of().strength(2.0f).requiresCorrectToolForDrops()));
 
     public static final DeferredBlock<PressurePlateBlock> MARBLE_PRESSURE_PLATE = registerBlock("marble_pressure_plate",
-            () -> new PressurePlateBlock(BlockSetType.STONE,BlockBehaviour.Properties.of().strength(2.0f).requiresCorrectToolForDrops()));
+            () -> new PressurePlateBlock(BlockSetType.STONE,BlockBehaviour.Properties.of().strength(2.0f)));
 
     public static final DeferredBlock<ButtonBlock> MARBLE_BUTTON = registerBlock("marble_button",
-            () -> new ButtonBlock(BlockSetType.STONE,20,BlockBehaviour.Properties.of().strength(2.0f).requiresCorrectToolForDrops().noCollission()));
+            () -> new ButtonBlock(BlockSetType.STONE,20,BlockBehaviour.Properties.of().strength(2.0f).noCollission()));
 
     public static final DeferredBlock<WallBlock> MARBLE_WALL = registerBlock("marble_wall",
             () -> new WallBlock(BlockBehaviour.Properties.of().strength(2.0f).requiresCorrectToolForDrops()));
@@ -79,7 +79,7 @@ public class ModBlocks {
                     .sound(SoundType.ANCIENT_DEBRIS)));
 
     public static final DeferredBlock<StairBlock> COBBLED_MARBLE_STAIRS = registerBlock("cobbled_marble_stairs",
-            () -> new StairBlock(ModBlocks.MARBLE.get().defaultBlockState(),
+            () -> new StairBlock(ModBlocks.COBBLED_MARBLE.get().defaultBlockState(),
                     BlockBehaviour.Properties.of().strength(2.0f).requiresCorrectToolForDrops()));
 
     public static final DeferredBlock<SlabBlock> COBBLED_MARBLE_SLAB = registerBlock("cobbled_marble_slab",
@@ -88,6 +88,38 @@ public class ModBlocks {
     public static final DeferredBlock<WallBlock> COBBLED_MARBLE_WALL = registerBlock("cobbled_marble_wall",
             () -> new WallBlock(BlockBehaviour.Properties.of().strength(2.0f).requiresCorrectToolForDrops()));
 
+    public static final DeferredBlock<StairBlock> MARBLE_BRICKS_STAIRS = registerBlock("marble_bricks_stairs",
+            () -> new StairBlock(ModBlocks.MARBLE_BRICKS.get().defaultBlockState(),
+                    BlockBehaviour.Properties.of().strength(2.0f).requiresCorrectToolForDrops()));
+
+    public static final DeferredBlock<SlabBlock> MARBLE_BRICKS_SLAB = registerBlock("marble_bricks_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.of().strength(2.0f).requiresCorrectToolForDrops()));
+
+    public static final DeferredBlock<WallBlock> MARBLE_BRICKS_WALL = registerBlock("marble_bricks_wall",
+            () -> new WallBlock(BlockBehaviour.Properties.of().strength(2.0f).requiresCorrectToolForDrops()));
+
+    public static final DeferredBlock<StairBlock> MOSSY_COBBLED_MARBLE_STAIRS = registerBlock("mossy_cobbled_marble_stairs",
+            () -> new StairBlock(ModBlocks.MOSSY_COBBLED_MARBLE.get().defaultBlockState(),
+                    BlockBehaviour.Properties.of().strength(2.0f).requiresCorrectToolForDrops()));
+
+    public static final DeferredBlock<SlabBlock> MOSSY_COBBLED_MARBLE_SLAB = registerBlock("mossy_cobbled_marble_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.of().strength(2.0f).requiresCorrectToolForDrops()));
+
+    public static final DeferredBlock<WallBlock> MOSSY_COBBLED_MARBLE_WALL = registerBlock("mossy_cobbled_marble_wall",
+            () -> new WallBlock(BlockBehaviour.Properties.of().strength(2.0f).requiresCorrectToolForDrops()));
+
+    public static final DeferredBlock<StairBlock> MOSSY_MARBLE_BRICKS_STAIRS = registerBlock("mossy_marble_bricks_stairs",
+            () -> new StairBlock(ModBlocks.MOSSY_MARBLE_BRICKS.get().defaultBlockState(),
+                    BlockBehaviour.Properties.of().strength(2.0f).requiresCorrectToolForDrops()));
+
+    public static final DeferredBlock<SlabBlock> MOSSY_MARBLE_BRICKS_SLAB = registerBlock("mossy_marble_bricks_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.of().strength(2.0f).requiresCorrectToolForDrops()));
+
+    public static final DeferredBlock<WallBlock> MOSSY_MARBLE_BRICKS_WALL = registerBlock("mossy_marble_bricks_wall",
+            () -> new WallBlock(BlockBehaviour.Properties.of().strength(2.0f).requiresCorrectToolForDrops()));
+
+    public static final DeferredBlock<WallBlock> STONE_WALL = registerBlock("stone_wall",
+            () -> new WallBlock(BlockBehaviour.Properties.of().strength(2.0f).requiresCorrectToolForDrops()));
 
     public static final DeferredBlock<Block> PALADIUM_ORE = registerBlock("paladium_ore",
             () -> new Block(BlockBehaviour.Properties.of()

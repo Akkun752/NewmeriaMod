@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/inner_stairs",
+  "textures": {
+    "bottom": "newmeriamod:block/marble_bricks",
+    "side": "newmeriamod:block/marble_bricks",
+    "top": "newmeriamod:block/marble_bricks"
+  }
+}

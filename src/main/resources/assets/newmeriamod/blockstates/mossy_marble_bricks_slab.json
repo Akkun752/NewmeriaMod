@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "newmeriamod:block/mossy_marble_bricks_slab"
+    },
+    "type=double": {
+      "model": "newmeriamod:block/mossy_marble_bricks"
+    },
+    "type=top": {
+      "model": "newmeriamod:block/mossy_marble_bricks_slab_top"
+    }
+  }
+}

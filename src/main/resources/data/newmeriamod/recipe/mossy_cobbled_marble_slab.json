@@ -3,7 +3,7 @@
   "category": "building",
   "key": {
     "#": {
-      "item": "minecraft:mossy_cobblestone"
+      "item": "newmeriamod:mossy_cobbled_marble"
     }
   },
   "pattern": [
@@ -11,6 +11,6 @@
   ],
   "result": {
     "count": 6,
-    "id": "minecraft:mossy_cobblestone_slab"
+    "id": "newmeriamod:mossy_cobbled_marble_slab"
   }
 }

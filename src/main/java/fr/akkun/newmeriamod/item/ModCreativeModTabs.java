@@ -46,18 +46,31 @@ public class ModCreativeModTabs {
                         output.accept(ModItems.NETHERITE_HAMMER);
                         output.accept(ModItems.ENDERITE_HAMMER);
 
+                        output.accept(ModBlocks.STONE_WALL);
                         output.accept(ModBlocks.MARBLE);
-                        output.accept(ModBlocks.COBBLED_MARBLE);
-                        output.accept(ModBlocks.MARBLE_BRICKS);
-                        output.accept(ModBlocks.CHISELED_MARBLE_BRICKS);
-                        output.accept(ModBlocks.MOSSY_COBBLED_MARBLE);
-                        output.accept(ModBlocks.MOSSY_MARBLE_BRICKS);
-                        output.accept(ModBlocks.CRACKED_MARBLE_BRICKS);
                         output.accept(ModBlocks.MARBLE_STAIRS);
                         output.accept(ModBlocks.MARBLE_SLAB);
+                        output.accept(ModBlocks.MARBLE_WALL);
                         output.accept(ModBlocks.MARBLE_PRESSURE_PLATE);
                         output.accept(ModBlocks.MARBLE_BUTTON);
-                        output.accept(ModBlocks.MARBLE_WALL);
+                        output.accept(ModBlocks.COBBLED_MARBLE);
+                        output.accept(ModBlocks.COBBLED_MARBLE_STAIRS);
+                        output.accept(ModBlocks.COBBLED_MARBLE_SLAB);
+                        output.accept(ModBlocks.COBBLED_MARBLE_WALL);
+                        output.accept(ModBlocks.MOSSY_COBBLED_MARBLE);
+                        output.accept(ModBlocks.MOSSY_COBBLED_MARBLE_STAIRS);
+                        output.accept(ModBlocks.MOSSY_COBBLED_MARBLE_SLAB);
+                        output.accept(ModBlocks.MOSSY_COBBLED_MARBLE_WALL);
+                        output.accept(ModBlocks.MARBLE_BRICKS);
+                        output.accept(ModBlocks.CRACKED_MARBLE_BRICKS);
+                        output.accept(ModBlocks.MARBLE_BRICKS_STAIRS);
+                        output.accept(ModBlocks.MARBLE_BRICKS_SLAB);
+                        output.accept(ModBlocks.MARBLE_BRICKS_WALL);
+                        output.accept(ModBlocks.CHISELED_MARBLE_BRICKS);
+                        output.accept(ModBlocks.MOSSY_MARBLE_BRICKS);
+                        output.accept(ModBlocks.MOSSY_MARBLE_BRICKS_STAIRS);
+                        output.accept(ModBlocks.MOSSY_MARBLE_BRICKS_SLAB);
+                        output.accept(ModBlocks.MOSSY_MARBLE_BRICKS_WALL);
                     })
                     .build());
 

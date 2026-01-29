@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "newmeriamod:block/marble_bricks_slab"
+    },
+    "type=double": {
+      "model": "newmeriamod:block/marble_bricks"
+    },
+    "type=top": {
+      "model": "newmeriamod:block/marble_bricks_slab_top"
+    }
+  }
+}
